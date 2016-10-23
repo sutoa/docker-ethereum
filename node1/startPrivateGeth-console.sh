@@ -1,0 +1,1 @@
+geth --identity "testnode1" --rpccorsdomain "*" --autodag --rpc --rpcaddr "0.0.0.0" --unlock 0,1 --nodiscover --maxpeers 2 --datadir "/ethereum/private-node/datadir" --verbosity 3 --networkid 42 --port 30303 console 2>> logs/eth.log
