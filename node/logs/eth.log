@@ -1,0 +1,532 @@
+I1025 02:09:27.918794 ethdb/database.go:83] Alloted 128MB cache and 1024 file handles to /ethereum/private-node/datadir/chaindata
+I1025 02:09:28.221206 ethdb/database.go:176] closed db:/ethereum/private-node/datadir/chaindata
+I1025 02:09:28.240275 ethdb/database.go:83] Alloted 128MB cache and 1024 file handles to /ethereum/private-node/datadir/chaindata
+I1025 02:09:28.275854 eth/backend.go:621] upgrading db log bloom bins
+I1025 02:09:28.276621 eth/backend.go:629] upgrade completed in 770.18µs
+I1025 02:09:28.277218 ethdb/database.go:83] Alloted 16MB cache and 16 file handles to /ethereum/private-node/datadir/dapp
+I1025 02:09:28.297504 eth/backend.go:172] Protocol Versions: [63 62], Network Id: 42
+I1025 02:09:28.298345 eth/backend.go:201] Blockchain DB Version: 3
+I1025 02:09:28.299975 core/blockchain.go:214] Last header: #0 [6e92f8b2…] TD=16384
+I1025 02:09:28.300303 core/blockchain.go:215] Last block: #0 [6e92f8b2…] TD=16384
+I1025 02:09:28.300667 core/blockchain.go:216] Fast block: #0 [6e92f8b2…] TD=16384
+I1025 02:09:28.301867 p2p/server.go:313] Starting Server
+I1025 02:09:28.302411 eth/backend.go:454] Automatic pregeneration of ethash DAG ON (ethash dir: /root/.ethash)
+I1025 02:09:28.302791 p2p/server.go:556] Listening on [::]:30303
+I1025 02:09:28.303354 eth/backend.go:461] checking DAG (ethash dir: /root/.ethash)
+I1025 02:09:28.317307 node/node.go:296] IPC endpoint opened: /ethereum/private-node/datadir/geth.ipc
+I1025 02:09:28.317338 node/node.go:366] HTTP endpoint opened: http://0.0.0.0:8545
+I1025 02:09:32.221830 cmd/geth/accountcmd.go:189] Unlocked account 8607a04dcca05a715f19bfb73d88dd1d0efd878d
+I1025 02:09:35.733903 cmd/geth/accountcmd.go:189] Unlocked account 058c2f889c3bfae248fa78d246a87bf024ba8d06
+I1025 02:09:53.324432 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I1025 02:09:53.326534 miner/worker.go:539] commit new work on block 1 with 0 txs & 0 uncles. Took 1.01249ms
+I1025 02:09:53.327354 ethash.go:259] Generating DAG for epoch 0 (size 1073739904) (0000000000000000000000000000000000000000000000000000000000000000)
+I1025 02:09:54.146431 ethash.go:291] Generating DAG: 0%
+I1025 02:09:58.624488 ethash.go:291] Generating DAG: 1%
+I1025 02:10:03.142581 ethash.go:291] Generating DAG: 2%
+I1025 02:10:07.640441 ethash.go:291] Generating DAG: 3%
+I1025 02:10:12.199277 ethash.go:291] Generating DAG: 4%
+I1025 02:10:16.852866 ethash.go:291] Generating DAG: 5%
+I1025 02:10:21.302572 ethash.go:291] Generating DAG: 6%
+I1025 02:10:25.743167 ethash.go:291] Generating DAG: 7%
+I1025 02:10:30.439493 ethash.go:291] Generating DAG: 8%
+I1025 02:10:34.914548 ethash.go:291] Generating DAG: 9%
+I1025 02:10:39.279196 ethash.go:291] Generating DAG: 10%
+I1025 02:10:43.625743 ethash.go:291] Generating DAG: 11%
+I1025 02:10:47.944203 ethash.go:291] Generating DAG: 12%
+I1025 02:10:52.311518 ethash.go:291] Generating DAG: 13%
+I1025 02:10:56.724256 ethash.go:291] Generating DAG: 14%
+I1025 02:11:01.382622 ethash.go:291] Generating DAG: 15%
+I1025 02:11:05.839303 ethash.go:291] Generating DAG: 16%
+I1025 02:11:10.241519 ethash.go:291] Generating DAG: 17%
+I1025 02:11:14.618894 ethash.go:291] Generating DAG: 18%
+I1025 02:11:18.973466 ethash.go:291] Generating DAG: 19%
+I1025 02:11:23.410504 ethash.go:291] Generating DAG: 20%
+I1025 02:11:27.774769 ethash.go:291] Generating DAG: 21%
+I1025 02:11:32.170577 ethash.go:291] Generating DAG: 22%
+I1025 02:11:36.545544 ethash.go:291] Generating DAG: 23%
+I1025 02:11:40.902892 ethash.go:291] Generating DAG: 24%
+I1025 02:11:45.169666 ethash.go:291] Generating DAG: 25%
+I1025 02:11:49.463778 ethash.go:291] Generating DAG: 26%
+I1025 02:11:53.732291 ethash.go:291] Generating DAG: 27%
+I1025 02:11:58.062829 ethash.go:291] Generating DAG: 28%
+I1025 02:12:02.410857 ethash.go:291] Generating DAG: 29%
+I1025 02:12:06.835640 ethash.go:291] Generating DAG: 30%
+I1025 02:12:11.211465 ethash.go:291] Generating DAG: 31%
+I1025 02:12:15.488760 ethash.go:291] Generating DAG: 32%
+I1025 02:12:19.819277 ethash.go:291] Generating DAG: 33%
+I1025 02:12:24.120745 ethash.go:291] Generating DAG: 34%
+I1025 02:12:28.497955 ethash.go:291] Generating DAG: 35%
+I1025 02:12:32.831765 ethash.go:291] Generating DAG: 36%
+I1025 02:12:37.319328 ethash.go:291] Generating DAG: 37%
+I1025 02:12:41.630506 ethash.go:291] Generating DAG: 38%
+I1025 02:12:46.024842 ethash.go:291] Generating DAG: 39%
+I1025 02:12:50.336979 ethash.go:291] Generating DAG: 40%
+I1025 02:12:54.649852 ethash.go:291] Generating DAG: 41%
+I1025 02:12:58.968062 ethash.go:291] Generating DAG: 42%
+I1025 02:13:03.304417 ethash.go:291] Generating DAG: 43%
+I1025 02:13:07.963395 ethash.go:291] Generating DAG: 44%
+I1025 02:13:12.187223 ethash.go:291] Generating DAG: 45%
+I1025 02:13:16.558862 ethash.go:291] Generating DAG: 46%
+I1025 02:13:20.861974 ethash.go:291] Generating DAG: 47%
+I1025 02:13:25.205582 ethash.go:291] Generating DAG: 48%
+I1025 02:13:29.501346 ethash.go:291] Generating DAG: 49%
+I1025 02:13:33.854796 ethash.go:291] Generating DAG: 50%
+I1025 02:13:38.250698 ethash.go:291] Generating DAG: 51%
+I1025 02:13:42.644654 ethash.go:291] Generating DAG: 52%
+I1025 02:13:46.962758 ethash.go:291] Generating DAG: 53%
+I1025 02:13:51.286822 ethash.go:291] Generating DAG: 54%
+I1025 02:13:55.600456 ethash.go:291] Generating DAG: 55%
+I1025 02:13:59.930405 ethash.go:291] Generating DAG: 56%
+I1025 02:14:04.288666 ethash.go:291] Generating DAG: 57%
+I1025 02:14:08.599828 ethash.go:291] Generating DAG: 58%
+I1025 02:14:13.013549 ethash.go:291] Generating DAG: 59%
+I1025 02:14:17.305661 ethash.go:291] Generating DAG: 60%
+I1025 02:14:21.674421 ethash.go:291] Generating DAG: 61%
+I1025 02:14:26.028581 ethash.go:291] Generating DAG: 62%
+I1025 02:14:30.463054 ethash.go:291] Generating DAG: 63%
+I1025 02:14:34.921698 ethash.go:291] Generating DAG: 64%
+I1025 02:14:39.357440 ethash.go:291] Generating DAG: 65%
+I1025 02:14:43.725701 ethash.go:291] Generating DAG: 66%
+I1025 02:14:48.163627 ethash.go:291] Generating DAG: 67%
+I1025 02:14:52.508208 ethash.go:291] Generating DAG: 68%
+I1025 02:14:56.835233 ethash.go:291] Generating DAG: 69%
+I1025 02:15:01.158064 ethash.go:291] Generating DAG: 70%
+I1025 02:15:05.516323 ethash.go:291] Generating DAG: 71%
+I1025 02:15:09.893670 ethash.go:291] Generating DAG: 72%
+I1025 02:15:14.169209 ethash.go:291] Generating DAG: 73%
+I1025 02:15:18.562948 ethash.go:291] Generating DAG: 74%
+I1025 02:15:22.825272 ethash.go:291] Generating DAG: 75%
+I1025 02:15:27.253249 ethash.go:291] Generating DAG: 76%
+I1025 02:15:31.692522 ethash.go:291] Generating DAG: 77%
+I1025 02:15:36.152392 ethash.go:291] Generating DAG: 78%
+I1025 02:15:40.592192 ethash.go:291] Generating DAG: 79%
+I1025 02:15:45.014335 ethash.go:291] Generating DAG: 80%
+I1025 02:15:49.347603 ethash.go:291] Generating DAG: 81%
+I1025 02:15:53.719190 ethash.go:291] Generating DAG: 82%
+I1025 02:15:58.114706 ethash.go:291] Generating DAG: 83%
+I1025 02:16:02.468648 ethash.go:291] Generating DAG: 84%
+I1025 02:16:06.839124 ethash.go:291] Generating DAG: 85%
+I1025 02:16:11.195078 ethash.go:291] Generating DAG: 86%
+I1025 02:16:15.517589 ethash.go:291] Generating DAG: 87%
+I1025 02:16:19.833653 ethash.go:291] Generating DAG: 88%
+I1025 02:16:24.180565 ethash.go:291] Generating DAG: 89%
+I1025 02:16:28.463131 ethash.go:291] Generating DAG: 90%
+I1025 02:16:32.920065 ethash.go:291] Generating DAG: 91%
+I1025 02:16:37.401458 ethash.go:291] Generating DAG: 92%
+I1025 02:16:41.852452 ethash.go:291] Generating DAG: 93%
+I1025 02:16:46.120736 ethash.go:291] Generating DAG: 94%
+I1025 02:16:50.470950 ethash.go:291] Generating DAG: 95%
+I1025 02:16:54.774245 ethash.go:291] Generating DAG: 96%
+I1025 02:16:59.088931 ethash.go:291] Generating DAG: 97%
+I1025 02:17:03.370827 ethash.go:291] Generating DAG: 98%
+I1025 02:17:07.740540 ethash.go:291] Generating DAG: 99%
+I1025 02:17:12.382664 ethash.go:291] Generating DAG: 100%
+I1025 02:17:12.385754 ethash.go:276] Done generating DAG for epoch 0, it took 7m19.058404916s
+I1025 02:17:14.198020 miner/worker.go:342] 🔨  Mined block (#1 / ad2b0556). Wait 5 blocks for confirmation
+I1025 02:17:14.199156 miner/worker.go:539] commit new work on block 2 with 0 txs & 0 uncles. Took 786.062µs
+I1025 02:17:14.207113 miner/worker.go:539] commit new work on block 2 with 0 txs & 0 uncles. Took 7.151065ms
+I1025 02:17:14.450654 miner/worker.go:342] 🔨  Mined stale block (#1 / b73835fa). 
+I1025 02:17:14.451323 miner/worker.go:539] commit new work on block 2 with 0 txs & 0 uncles. Took 211.547µs
+I1025 02:17:15.639797 miner/worker.go:342] 🔨  Mined block (#2 / d74478a1). Wait 5 blocks for confirmation
+I1025 02:17:15.640449 miner/worker.go:539] commit new work on block 3 with 0 txs & 0 uncles. Took 204.455µs
+I1025 02:17:15.674418 miner/worker.go:539] commit new work on block 3 with 0 txs & 0 uncles. Took 198.463µs
+I1025 02:17:16.092745 miner/worker.go:342] 🔨  Mined block (#3 / fb859f25). Wait 5 blocks for confirmation
+I1025 02:17:16.093390 miner/worker.go:539] commit new work on block 4 with 0 txs & 0 uncles. Took 205.155µs
+I1025 02:17:16.094050 miner/worker.go:539] commit new work on block 4 with 0 txs & 0 uncles. Took 119.258µs
+I1025 02:17:16.716276 miner/worker.go:342] 🔨  Mined block (#4 / 5430186b). Wait 5 blocks for confirmation
+I1025 02:17:16.716893 miner/worker.go:539] commit new work on block 5 with 0 txs & 0 uncles. Took 190.272µs
+I1025 02:17:16.717578 miner/worker.go:539] commit new work on block 5 with 0 txs & 0 uncles. Took 117.76µs
+I1025 02:17:16.953841 miner/worker.go:342] 🔨  Mined block (#5 / a8a73211). Wait 5 blocks for confirmation
+I1025 02:17:16.954474 miner/worker.go:539] commit new work on block 6 with 0 txs & 0 uncles. Took 141.631µs
+I1025 02:17:17.231481 miner/worker.go:539] commit new work on block 6 with 0 txs & 0 uncles. Took 184.979µs
+I1025 02:17:17.616190 miner/worker.go:342] 🔨  Mined stale block (#5 / 05394ee1). 
+I1025 02:17:17.616732 miner/worker.go:539] commit new work on block 6 with 0 txs & 0 uncles. Took 195.866µs
+I1025 02:17:17.630478 miner/worker.go:342] 🔨  Mined stale block (#5 / 95c3ac53). 
+I1025 02:17:17.631248 miner/worker.go:539] commit new work on block 6 with 0 txs & 0 uncles. Took 267.98µs
+I1025 02:17:17.834983 miner/worker.go:342] 🔨  Mined block (#6 / 8ab62fd0). Wait 5 blocks for confirmation
+I1025 02:17:17.835542 miner/worker.go:539] commit new work on block 7 with 0 txs & 0 uncles. Took 163.904µs
+I1025 02:17:17.835980 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1
+I1025 02:17:17.837649 miner/worker.go:539] commit new work on block 7 with 0 txs & 0 uncles. Took 87.396µs
+I1025 02:17:18.025025 miner/worker.go:342] 🔨  Mined block (#7 / 277c6cbb). Wait 5 blocks for confirmation
+I1025 02:17:18.025567 miner/worker.go:539] commit new work on block 8 with 0 txs & 0 uncles. Took 158.811µs
+I1025 02:17:18.025983 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #2
+I1025 02:17:18.045693 miner/worker.go:539] commit new work on block 8 with 0 txs & 0 uncles. Took 238.515µs
+I1025 02:17:19.089938 miner/worker.go:342] 🔨  Mined block (#8 / 241feee2). Wait 5 blocks for confirmation
+I1025 02:17:19.090541 miner/worker.go:539] commit new work on block 9 with 0 txs & 0 uncles. Took 165.202µs
+I1025 02:17:19.090989 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #3
+I1025 02:17:19.565442 miner/worker.go:539] commit new work on block 9 with 0 txs & 0 uncles. Took 171.495µs
+I1025 02:17:20.659435 miner/worker.go:342] 🔨  Mined block (#9 / a427fcbe). Wait 5 blocks for confirmation
+I1025 02:17:20.659999 miner/worker.go:539] commit new work on block 10 with 0 txs & 0 uncles. Took 170.696µs
+I1025 02:17:20.660452 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #4
+I1025 02:17:20.733422 miner/worker.go:342] 🔨  Mined block (#9 / c9bc2689). Wait 5 blocks for confirmation
+I1025 02:17:20.733985 miner/worker.go:539] commit new work on block 10 with 0 txs & 0 uncles. Took 170.796µs
+I1025 02:17:20.834900 miner/worker.go:539] commit new work on block 10 with 0 txs & 0 uncles. Took 197.165µs
+I1025 02:17:21.217682 miner/worker.go:539] commit new work on block 10 with 0 txs & 1 uncles. Took 208.251µs
+I1025 02:17:21.600518 miner/worker.go:342] 🔨  Mined block (#10 / c9139ae4). Wait 5 blocks for confirmation
+I1025 02:17:21.601152 miner/worker.go:539] commit new work on block 11 with 0 txs & 0 uncles. Took 205.455µs
+I1025 02:17:21.602375 miner/worker.go:539] commit new work on block 11 with 0 txs & 0 uncles. Took 169.098µs
+I1025 02:17:22.970223 miner/worker.go:342] 🔨  Mined block (#11 / bf9ec999). Wait 5 blocks for confirmation
+I1025 02:17:22.970866 miner/worker.go:539] commit new work on block 12 with 0 txs & 0 uncles. Took 172.694µs
+I1025 02:17:23.146691 miner/worker.go:539] commit new work on block 12 with 0 txs & 0 uncles. Took 194.768µs
+I1025 02:17:23.169419 miner/worker.go:342] 🔨  Mined block (#12 / 75f1468a). Wait 5 blocks for confirmation
+I1025 02:17:23.170117 miner/worker.go:539] commit new work on block 13 with 0 txs & 0 uncles. Took 116.162µs
+I1025 02:17:23.540632 miner/worker.go:539] commit new work on block 13 with 0 txs & 0 uncles. Took 181.184µs
+I1025 02:17:24.737466 miner/worker.go:342] 🔨  Mined block (#13 / 9175ff66). Wait 5 blocks for confirmation
+I1025 02:17:24.738045 miner/worker.go:539] commit new work on block 14 with 0 txs & 0 uncles. Took 156.912µs
+I1025 02:17:24.906399 miner/worker.go:539] commit new work on block 14 with 0 txs & 0 uncles. Took 200.161µs
+I1025 02:17:26.100099 miner/worker.go:342] 🔨  Mined block (#14 / c8ea5993). Wait 5 blocks for confirmation
+I1025 02:17:26.100976 miner/worker.go:539] commit new work on block 15 with 0 txs & 0 uncles. Took 196.466µs
+I1025 02:17:26.101620 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #9
+I1025 02:17:26.118127 miner/worker.go:539] commit new work on block 15 with 0 txs & 0 uncles. Took 161.807µs
+I1025 02:17:30.157285 miner/worker.go:342] 🔨  Mined block (#15 / 1e94dc7f). Wait 5 blocks for confirmation
+I1025 02:17:30.158010 miner/worker.go:539] commit new work on block 16 with 0 txs & 0 uncles. Took 183.182µs
+I1025 02:17:30.158422 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #10
+I1025 02:17:30.159109 miner/worker.go:539] commit new work on block 16 with 0 txs & 0 uncles. Took 135.638µs
+I1025 02:17:31.313418 miner/worker.go:342] 🔨  Mined block (#16 / 3c7559b5). Wait 5 blocks for confirmation
+I1025 02:17:31.314000 miner/worker.go:539] commit new work on block 17 with 0 txs & 0 uncles. Took 156.014µs
+I1025 02:17:31.314447 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #11
+I1025 02:17:31.450133 miner/worker.go:539] commit new work on block 17 with 0 txs & 0 uncles. Took 268.58µs
+I1025 02:17:31.609002 miner/worker.go:342] 🔨  Mined block (#17 / 7cca956d). Wait 5 blocks for confirmation
+I1025 02:17:31.609579 miner/worker.go:539] commit new work on block 18 with 0 txs & 0 uncles. Took 160.009µs
+I1025 02:17:31.610009 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #12
+I1025 02:17:31.610626 miner/worker.go:539] commit new work on block 18 with 0 txs & 0 uncles. Took 119.657µs
+I1025 02:17:33.834560 miner/worker.go:342] 🔨  Mined block (#18 / a59e0aba). Wait 5 blocks for confirmation
+I1025 02:17:33.835123 miner/worker.go:539] commit new work on block 19 with 0 txs & 0 uncles. Took 148.922µs
+I1025 02:17:33.835548 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #13
+I1025 02:17:33.836157 miner/worker.go:539] commit new work on block 19 with 0 txs & 0 uncles. Took 124.452µs
+I1025 02:17:34.763784 miner/worker.go:342] 🔨  Mined block (#19 / 3a1705c1). Wait 5 blocks for confirmation
+I1025 02:17:34.764357 miner/worker.go:539] commit new work on block 20 with 0 txs & 0 uncles. Took 189.873µs
+I1025 02:17:34.764793 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #14
+I1025 02:17:34.765389 miner/worker.go:539] commit new work on block 20 with 0 txs & 0 uncles. Took 117.46µs
+I1025 02:17:34.980906 miner/worker.go:342] 🔨  Mined block (#20 / cd955fd9). Wait 5 blocks for confirmation
+I1025 02:17:34.981552 miner/worker.go:539] commit new work on block 21 with 0 txs & 0 uncles. Took 108.571µs
+I1025 02:17:34.982050 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #15
+I1025 02:17:35.232626 miner/worker.go:539] commit new work on block 21 with 0 txs & 0 uncles. Took 168.598µs
+I1025 02:18:37.106477 eth/api.go:1183] Tx(0xe567e1ef9aad7063e10706cee2539df54b68c9cebda6d29bbc2165687542e649) created: 0xe0dc39c7a40bfacb27afb52976cedffca6a7dbb2
+I1025 02:18:52.584996 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I1025 02:18:52.586918 miner/worker.go:539] commit new work on block 21 with 1 txs & 0 uncles. Took 1.116866ms
+I1025 02:18:53.132919 miner/worker.go:342] 🔨  Mined block (#21 / 0176fd89). Wait 5 blocks for confirmation
+I1025 02:18:53.133575 miner/worker.go:539] commit new work on block 22 with 0 txs & 0 uncles. Took 228.427µs
+I1025 02:18:53.134029 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #16
+I1025 02:18:53.134669 miner/worker.go:539] commit new work on block 22 with 0 txs & 0 uncles. Took 121.156µs
+I1025 02:18:55.772246 miner/worker.go:342] 🔨  Mined block (#22 / 778fae41). Wait 5 blocks for confirmation
+I1025 02:18:55.772878 miner/worker.go:539] commit new work on block 23 with 0 txs & 0 uncles. Took 191.572µs
+I1025 02:18:55.773375 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #17
+I1025 02:18:55.927490 miner/worker.go:539] commit new work on block 23 with 0 txs & 0 uncles. Took 193.969µs
+I1025 02:18:57.193165 miner/worker.go:342] 🔨  Mined block (#23 / a728815f). Wait 5 blocks for confirmation
+I1025 02:18:57.193825 miner/worker.go:539] commit new work on block 24 with 0 txs & 0 uncles. Took 224.432µs
+I1025 02:18:57.194249 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #18
+I1025 02:18:57.194811 miner/worker.go:539] commit new work on block 24 with 0 txs & 0 uncles. Took 138.934µs
+I1025 02:18:57.745474 miner/worker.go:342] 🔨  Mined block (#24 / 61fcf111). Wait 5 blocks for confirmation
+I1025 02:18:57.746127 miner/worker.go:539] commit new work on block 25 with 0 txs & 0 uncles. Took 223.033µs
+I1025 02:18:57.746578 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #19
+I1025 02:18:58.096309 miner/worker.go:539] commit new work on block 25 with 0 txs & 0 uncles. Took 202.758µs
+I1025 02:19:04.089614 miner/worker.go:342] 🔨  Mined block (#25 / 3349b972). Wait 5 blocks for confirmation
+I1025 02:19:04.090284 miner/worker.go:539] commit new work on block 26 with 0 txs & 0 uncles. Took 221.335µs
+I1025 02:19:04.090751 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #20
+I1025 02:19:04.091394 miner/worker.go:539] commit new work on block 26 with 0 txs & 0 uncles. Took 140.133µs
+I1025 02:19:04.495645 miner/worker.go:342] 🔨  Mined block (#26 / 40fc6bdf). Wait 5 blocks for confirmation
+I1025 02:19:04.496293 miner/worker.go:539] commit new work on block 27 with 0 txs & 0 uncles. Took 216.342µs
+I1025 02:19:04.496743 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #21
+I1025 02:19:04.508162 miner/worker.go:539] commit new work on block 27 with 0 txs & 0 uncles. Took 194.168µs
+I1025 02:19:04.713597 miner/worker.go:342] 🔨  Mined block (#27 / a5e0aea3). Wait 5 blocks for confirmation
+I1025 02:19:04.725555 miner/worker.go:539] commit new work on block 28 with 0 txs & 0 uncles. Took 182.582µs
+I1025 02:19:04.726065 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #22
+I1025 02:19:05.085569 miner/worker.go:539] commit new work on block 28 with 0 txs & 0 uncles. Took 217.141µs
+I1025 02:19:05.526557 miner/worker.go:342] 🔨  Mined block (#28 / 18b123fc). Wait 5 blocks for confirmation
+I1025 02:19:05.527188 miner/worker.go:539] commit new work on block 29 with 0 txs & 0 uncles. Took 138.235µs
+I1025 02:19:05.527663 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #23
+I1025 02:19:05.781308 miner/worker.go:539] commit new work on block 29 with 0 txs & 0 uncles. Took 204.956µs
+I1025 02:19:09.498425 miner/worker.go:342] 🔨  Mined block (#29 / 71328d9a). Wait 5 blocks for confirmation
+I1025 02:19:09.499083 miner/worker.go:539] commit new work on block 30 with 0 txs & 0 uncles. Took 216.841µs
+I1025 02:19:09.499543 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #24
+I1025 02:19:09.500373 miner/worker.go:539] commit new work on block 30 with 0 txs & 0 uncles. Took 162.306µs
+I1025 02:19:11.093860 miner/worker.go:342] 🔨  Mined block (#30 / ef8c3c60). Wait 5 blocks for confirmation
+I1025 02:19:11.094950 miner/worker.go:539] commit new work on block 31 with 0 txs & 0 uncles. Took 202.858µs
+I1025 02:19:11.095385 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #25
+I1025 02:19:11.257800 miner/worker.go:539] commit new work on block 31 with 0 txs & 0 uncles. Took 222.834µs
+I1025 02:19:11.403659 miner/worker.go:342] 🔨  Mined block (#31 / 841dc38b). Wait 5 blocks for confirmation
+I1025 02:19:11.404243 miner/worker.go:539] commit new work on block 32 with 0 txs & 0 uncles. Took 195.467µs
+I1025 02:19:11.404682 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #26
+I1025 02:19:11.506008 miner/worker.go:539] commit new work on block 32 with 0 txs & 0 uncles. Took 212.246µs
+I1025 02:19:13.888474 miner/worker.go:342] 🔨  Mined block (#32 / b7c2f5ee). Wait 5 blocks for confirmation
+I1025 02:19:13.889099 miner/worker.go:539] commit new work on block 33 with 0 txs & 0 uncles. Took 203.058µs
+I1025 02:19:13.889514 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #27
+I1025 02:19:13.890171 miner/worker.go:539] commit new work on block 33 with 0 txs & 0 uncles. Took 145.327µs
+I1025 02:19:16.437031 miner/worker.go:342] 🔨  Mined block (#33 / 7d31bbc1). Wait 5 blocks for confirmation
+I1025 02:19:16.437773 miner/worker.go:539] commit new work on block 34 with 0 txs & 0 uncles. Took 259.29µs
+I1025 02:19:16.438226 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #28
+I1025 02:19:16.474147 miner/worker.go:342] 🔨  Mined block (#34 / 06a3479a). Wait 5 blocks for confirmation
+I1025 02:19:16.474790 miner/worker.go:539] commit new work on block 35 with 0 txs & 0 uncles. Took 211.847µs
+I1025 02:19:16.475398 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #29
+I1025 02:19:16.476859 miner/worker.go:539] commit new work on block 35 with 0 txs & 0 uncles. Took 251.1µs
+I1025 02:19:16.726102 miner/worker.go:539] commit new work on block 35 with 0 txs & 0 uncles. Took 276.47µs
+I1025 02:19:19.742038 miner/worker.go:342] 🔨  Mined block (#35 / cf571cd5). Wait 5 blocks for confirmation
+I1025 02:19:19.742704 miner/worker.go:539] commit new work on block 36 with 0 txs & 0 uncles. Took 213.245µs
+I1025 02:19:19.743207 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #30
+I1025 02:19:20.082400 miner/worker.go:539] commit new work on block 36 with 0 txs & 0 uncles. Took 1.584509ms
+I1025 02:19:22.145184 miner/worker.go:342] 🔨  Mined block (#36 / 2df3734a). Wait 5 blocks for confirmation
+I1025 02:19:22.145856 miner/worker.go:539] commit new work on block 37 with 0 txs & 0 uncles. Took 210.848µs
+I1025 02:19:22.146293 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #31
+I1025 02:19:22.212631 miner/worker.go:342] 🔨  Mined block (#36 / e3a5b524). Wait 5 blocks for confirmation
+I1025 02:19:22.213649 miner/worker.go:539] commit new work on block 37 with 0 txs & 0 uncles. Took 358.273µs
+I1025 02:19:22.397318 miner/worker.go:539] commit new work on block 37 with 0 txs & 0 uncles. Took 677.591µs
+I1025 02:19:22.544473 miner/worker.go:539] commit new work on block 37 with 0 txs & 1 uncles. Took 292.751µs
+I1025 02:19:22.610017 miner/worker.go:342] 🔨  Mined block (#37 / 796c671c). Wait 5 blocks for confirmation
+I1025 02:19:22.639588 miner/worker.go:539] commit new work on block 38 with 0 txs & 1 uncles. Took 273.873µs
+I1025 02:19:22.654403 miner/worker.go:539] commit new work on block 38 with 0 txs & 1 uncles. Took 429.487µs
+I1025 02:19:22.832530 miner/worker.go:342] 🔨  Mined block (#37 / 1ce98e96). Wait 5 blocks for confirmation
+I1025 02:19:22.833180 miner/worker.go:539] commit new work on block 38 with 0 txs & 0 uncles. Took 222.634µs
+I1025 02:19:23.750817 miner/worker.go:342] 🔨  Mined block (#38 / 9ac17f50). Wait 5 blocks for confirmation
+I1025 02:19:23.751410 miner/worker.go:539] commit new work on block 39 with 0 txs & 0 uncles. Took 207.153µs
+I1025 02:19:24.194644 miner/worker.go:342] 🔨  Mined block (#38 / 3bd342d0). Wait 5 blocks for confirmation
+I1025 02:19:24.195309 miner/worker.go:539] commit new work on block 39 with 0 txs & 0 uncles. Took 192.67µs
+I1025 02:19:24.312427 miner/worker.go:539] commit new work on block 39 with 0 txs & 0 uncles. Took 227.828µs
+I1025 02:19:24.494200 miner/worker.go:539] commit new work on block 39 with 0 txs & 1 uncles. Took 275.171µs
+I1025 02:19:24.715298 miner/worker.go:539] commit new work on block 39 with 0 txs & 1 uncles. Took 40.27932ms
+I1025 02:19:29.943536 miner/worker.go:342] 🔨  Mined block (#39 / 1a653599). Wait 5 blocks for confirmation
+I1025 02:19:29.944255 miner/worker.go:539] commit new work on block 40 with 0 txs & 0 uncles. Took 268.38µs
+I1025 02:19:30.004050 miner/worker.go:539] commit new work on block 40 with 0 txs & 0 uncles. Took 240.014µs
+I1025 02:19:30.375271 miner/worker.go:342] 🔨  Mined block (#40 / 971586f0). Wait 5 blocks for confirmation
+I1025 02:19:30.376538 miner/worker.go:539] commit new work on block 41 with 0 txs & 0 uncles. Took 163.805µs
+I1025 02:19:30.452946 miner/worker.go:539] commit new work on block 41 with 0 txs & 0 uncles. Took 215.543µs
+I1025 02:19:30.473708 miner/worker.go:342] 🔨  Mined block (#40 / 01616b05). Wait 5 blocks for confirmation
+I1025 02:19:30.474429 miner/worker.go:539] commit new work on block 41 with 0 txs & 0 uncles. Took 247.904µs
+I1025 02:19:31.572088 miner/worker.go:539] commit new work on block 41 with 0 txs & 0 uncles. Took 110.431782ms
+I1025 02:19:31.624440 miner/worker.go:342] 🔨  Mined block (#40 / bae6f8c3). Wait 5 blocks for confirmation
+I1025 02:19:31.625868 miner/worker.go:539] commit new work on block 41 with 0 txs & 2 uncles. Took 723.136µs
+I1025 02:19:31.636688 miner/worker.go:539] commit new work on block 41 with 0 txs & 2 uncles. Took 882.946µs
+I1025 02:19:31.828312 miner/worker.go:342] 🔨  Mined block (#41 / 99372b54). Wait 5 blocks for confirmation
+I1025 02:19:31.829241 miner/worker.go:539] commit new work on block 42 with 0 txs & 1 uncles. Took 278.368µs
+I1025 02:19:32.214771 miner/worker.go:539] commit new work on block 42 with 0 txs & 2 uncles. Took 598.486µs
+I1025 02:19:32.476591 miner/worker.go:342] 🔨  Mined block (#42 / 2961702b). Wait 5 blocks for confirmation
+I1025 02:19:32.477357 miner/worker.go:539] commit new work on block 43 with 0 txs & 0 uncles. Took 275.671µs
+I1025 02:19:32.483309 miner/worker.go:539] commit new work on block 43 with 0 txs & 0 uncles. Took 182.782µs
+I1025 02:19:34.606049 miner/worker.go:342] 🔨  Mined block (#43 / 3a7ef359). Wait 5 blocks for confirmation
+I1025 02:19:34.606860 miner/worker.go:539] commit new work on block 44 with 0 txs & 0 uncles. Took 307.433µs
+I1025 02:19:34.887004 miner/worker.go:539] commit new work on block 44 with 0 txs & 0 uncles. Took 356.075µs
+I1025 02:19:35.183780 miner/worker.go:342] 🔨  Mined block (#44 / 4b3254e7). Wait 5 blocks for confirmation
+I1025 02:19:35.202462 miner/worker.go:539] commit new work on block 45 with 0 txs & 0 uncles. Took 163.106µs
+I1025 02:19:35.653518 miner/worker.go:539] commit new work on block 45 with 0 txs & 0 uncles. Took 329.307µs
+I1025 02:19:36.181885 miner/worker.go:342] 🔨  Mined block (#45 / ee4c6d45). Wait 5 blocks for confirmation
+I1025 02:19:36.182576 miner/worker.go:539] commit new work on block 46 with 0 txs & 0 uncles. Took 198.563µs
+I1025 02:19:36.183065 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #40
+I1025 02:19:36.512587 miner/worker.go:539] commit new work on block 46 with 0 txs & 0 uncles. Took 368.76µs
+I1025 02:19:38.167957 miner/worker.go:342] 🔨  Mined block (#46 / 83eedbda). Wait 5 blocks for confirmation
+I1025 02:19:38.168685 miner/worker.go:539] commit new work on block 47 with 0 txs & 0 uncles. Took 259.391µs
+I1025 02:19:38.169097 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #41
+I1025 02:19:38.174500 miner/worker.go:539] commit new work on block 47 with 0 txs & 0 uncles. Took 189.674µs
+I1025 02:19:39.060539 miner/worker.go:342] 🔨  Mined block (#47 / d7447def). Wait 5 blocks for confirmation
+I1025 02:19:39.061280 miner/worker.go:539] commit new work on block 48 with 0 txs & 0 uncles. Took 213.145µs
+I1025 02:19:39.061766 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #42
+I1025 02:19:39.062556 miner/worker.go:539] commit new work on block 48 with 0 txs & 0 uncles. Took 178.387µs
+I1025 02:19:39.875538 miner/worker.go:342] 🔨  Mined block (#48 / 8c6798f8). Wait 5 blocks for confirmation
+I1025 02:19:39.876241 miner/worker.go:539] commit new work on block 49 with 0 txs & 0 uncles. Took 335.6µs
+I1025 02:19:39.876675 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #43
+I1025 02:19:39.877264 miner/worker.go:539] commit new work on block 49 with 0 txs & 0 uncles. Took 143.429µs
+I1025 02:19:40.045984 miner/worker.go:342] 🔨  Mined block (#49 / 7b9523f9). Wait 5 blocks for confirmation
+I1025 02:19:40.046647 miner/worker.go:539] commit new work on block 50 with 0 txs & 0 uncles. Took 133.94µs
+I1025 02:19:40.047077 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #44
+I1025 02:19:40.424856 miner/worker.go:539] commit new work on block 50 with 0 txs & 0 uncles. Took 12.4825ms
+I1025 02:19:40.776412 miner/worker.go:342] 🔨  Mined block (#49 / 535381af). Wait 5 blocks for confirmation
+I1025 02:19:40.777074 miner/worker.go:539] commit new work on block 50 with 0 txs & 0 uncles. Took 192.171µs
+I1025 02:19:41.078789 miner/worker.go:342] 🔨  Mined block (#50 / 19a30dd6). Wait 5 blocks for confirmation
+I1025 02:19:41.079361 miner/worker.go:539] commit new work on block 51 with 0 txs & 0 uncles. Took 226.929µs
+I1025 02:19:41.254917 miner/worker.go:539] commit new work on block 51 with 0 txs & 0 uncles. Took 322.315µs
+I1025 02:19:41.558101 miner/worker.go:539] commit new work on block 51 with 0 txs & 1 uncles. Took 250.201µs
+I1025 02:19:44.347615 miner/worker.go:342] 🔨  Mined block (#51 / d35b1eba). Wait 5 blocks for confirmation
+I1025 02:19:44.348287 miner/worker.go:539] commit new work on block 52 with 0 txs & 0 uncles. Took 256.693µs
+I1025 02:19:44.519518 miner/worker.go:539] commit new work on block 52 with 0 txs & 0 uncles. Took 234.121µs
+I1025 02:19:45.608184 miner/worker.go:342] 🔨  Mined block (#52 / 551ac0ff). Wait 5 blocks for confirmation
+I1025 02:19:45.608785 miner/worker.go:539] commit new work on block 53 with 0 txs & 0 uncles. Took 179.586µs
+I1025 02:19:45.609432 miner/worker.go:539] commit new work on block 53 with 0 txs & 0 uncles. Took 130.744µs
+I1025 02:19:47.264217 miner/worker.go:342] 🔨  Mined block (#53 / 0c77b785). Wait 5 blocks for confirmation
+I1025 02:19:47.264922 miner/worker.go:539] commit new work on block 54 with 0 txs & 0 uncles. Took 224.532µs
+I1025 02:19:47.468245 miner/worker.go:539] commit new work on block 54 with 0 txs & 0 uncles. Took 297.246µs
+I1025 02:19:47.546423 miner/worker.go:342] 🔨  Mined block (#54 / 487d211b). Wait 5 blocks for confirmation
+I1025 02:19:47.547231 miner/worker.go:539] commit new work on block 55 with 0 txs & 0 uncles. Took 145.226µs
+I1025 02:19:47.547688 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #49
+I1025 02:19:48.017573 miner/worker.go:539] commit new work on block 55 with 0 txs & 0 uncles. Took 211.347µs
+I1025 02:19:48.253909 miner/worker.go:342] 🔨  Mined block (#54 / cc1d2bff). Wait 5 blocks for confirmation
+I1025 02:19:48.254654 miner/worker.go:539] commit new work on block 55 with 0 txs & 0 uncles. Took 244.308µs
+I1025 02:19:48.269438 miner/worker.go:539] commit new work on block 55 with 0 txs & 1 uncles. Took 275.871µs
+I1025 02:19:49.733029 miner/worker.go:342] 🔨  Mined block (#55 / 3015abf6). Wait 5 blocks for confirmation
+I1025 02:19:49.733764 miner/worker.go:539] commit new work on block 56 with 0 txs & 0 uncles. Took 234.72µs
+I1025 02:19:49.734432 miner/worker.go:539] commit new work on block 56 with 0 txs & 0 uncles. Took 149.722µs
+I1025 02:19:50.774209 miner/worker.go:342] 🔨  Mined block (#56 / b0491d7d). Wait 5 blocks for confirmation
+I1025 02:19:50.774895 miner/worker.go:539] commit new work on block 57 with 0 txs & 0 uncles. Took 226.829µs
+I1025 02:19:50.786912 miner/worker.go:539] commit new work on block 57 with 0 txs & 0 uncles. Took 347.285µs
+I1025 02:19:51.602813 miner/worker.go:342] 🔨  Mined block (#57 / b868fa8f). Wait 5 blocks for confirmation
+I1025 02:19:51.603474 miner/worker.go:539] commit new work on block 58 with 0 txs & 0 uncles. Took 268.779µs
+I1025 02:19:51.621116 miner/worker.go:539] commit new work on block 58 with 0 txs & 0 uncles. Took 223.633µs
+I1025 02:19:52.178772 miner/worker.go:342] 🔨  Mined block (#58 / b1870fb2). Wait 5 blocks for confirmation
+I1025 02:19:52.179378 miner/worker.go:539] commit new work on block 59 with 0 txs & 0 uncles. Took 232.123µs
+I1025 02:19:52.778293 miner/worker.go:539] commit new work on block 59 with 0 txs & 0 uncles. Took 267.88µs
+I1025 02:19:53.026403 miner/worker.go:342] 🔨  Mined block (#59 / 1b73e3f6). Wait 5 blocks for confirmation
+I1025 02:19:53.027072 miner/worker.go:539] commit new work on block 60 with 0 txs & 0 uncles. Took 244.208µs
+I1025 02:19:53.027543 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #54
+I1025 02:19:53.055358 miner/worker.go:539] commit new work on block 60 with 0 txs & 0 uncles. Took 414.305µs
+I1025 02:19:53.348806 miner/worker.go:342] 🔨  Mined block (#60 / 5821d8e4). Wait 5 blocks for confirmation
+I1025 02:19:53.349506 miner/worker.go:539] commit new work on block 61 with 0 txs & 0 uncles. Took 175.291µs
+I1025 02:19:53.349930 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #55
+I1025 02:19:53.502624 miner/worker.go:539] commit new work on block 61 with 0 txs & 0 uncles. Took 206.154µs
+I1025 02:19:54.370270 miner/worker.go:342] 🔨  Mined stale block (#60 / 7d4add4d). 
+I1025 02:19:54.370895 miner/worker.go:539] commit new work on block 61 with 0 txs & 0 uncles. Took 207.052µs
+I1025 02:19:56.292591 miner/worker.go:342] 🔨  Mined block (#61 / 5e7a46b1). Wait 5 blocks for confirmation
+I1025 02:19:56.293218 miner/worker.go:539] commit new work on block 62 with 0 txs & 0 uncles. Took 255.595µs
+I1025 02:19:56.293621 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #56
+I1025 02:19:56.294269 miner/worker.go:539] commit new work on block 62 with 0 txs & 0 uncles. Took 171.795µs
+I1025 02:19:57.977662 miner/worker.go:342] 🔨  Mined block (#62 / d25f7ba0). Wait 5 blocks for confirmation
+I1025 02:19:57.978299 miner/worker.go:539] commit new work on block 63 with 0 txs & 0 uncles. Took 255.395µs
+I1025 02:19:57.978791 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #57
+I1025 02:19:58.076594 miner/worker.go:539] commit new work on block 63 with 0 txs & 0 uncles. Took 223.234µs
+I1025 02:20:04.961471 miner/worker.go:342] 🔨  Mined block (#63 / 987fc3dd). Wait 5 blocks for confirmation
+I1025 02:20:04.962174 miner/worker.go:539] commit new work on block 64 with 0 txs & 0 uncles. Took 224.133µs
+I1025 02:20:04.962636 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #58
+I1025 02:20:05.066919 miner/worker.go:539] commit new work on block 64 with 0 txs & 0 uncles. Took 223.533µs
+I1025 02:20:06.115040 miner/worker.go:342] 🔨  Mined block (#64 / 55b5073f). Wait 5 blocks for confirmation
+I1025 02:20:06.115686 miner/worker.go:539] commit new work on block 65 with 0 txs & 0 uncles. Took 198.562µs
+I1025 02:20:06.116112 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #59
+I1025 02:20:06.125091 miner/worker.go:539] commit new work on block 65 with 0 txs & 0 uncles. Took 192.97µs
+I1025 02:20:07.501076 miner/worker.go:342] 🔨  Mined block (#65 / bbbadf79). Wait 5 blocks for confirmation
+I1025 02:20:07.501736 miner/worker.go:539] commit new work on block 66 with 0 txs & 0 uncles. Took 232.123µs
+I1025 02:20:07.502153 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #60
+I1025 02:20:07.794991 miner/worker.go:539] commit new work on block 66 with 0 txs & 0 uncles. Took 360.869µs
+I1025 02:20:08.913983 miner/worker.go:342] 🔨  Mined block (#66 / 64b3a421). Wait 5 blocks for confirmation
+I1025 02:20:08.914656 miner/worker.go:539] commit new work on block 67 with 0 txs & 0 uncles. Took 216.941µs
+I1025 02:20:08.915069 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #61
+I1025 02:20:08.987234 miner/worker.go:539] commit new work on block 67 with 0 txs & 0 uncles. Took 218.239µs
+I1025 02:20:09.429785 miner/worker.go:342] 🔨  Mined block (#67 / 224a7cd7). Wait 5 blocks for confirmation
+I1025 02:20:09.430458 miner/worker.go:539] commit new work on block 68 with 0 txs & 0 uncles. Took 177.189µs
+I1025 02:20:09.430928 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #62
+I1025 02:20:09.446482 miner/worker.go:539] commit new work on block 68 with 0 txs & 0 uncles. Took 249.902µs
+I1025 02:20:10.729855 miner/worker.go:342] 🔨  Mined block (#68 / 257298af). Wait 5 blocks for confirmation
+I1025 02:20:10.730469 miner/worker.go:539] commit new work on block 69 with 0 txs & 0 uncles. Took 205.855µs
+I1025 02:20:10.730932 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #63
+I1025 02:20:10.731551 miner/worker.go:539] commit new work on block 69 with 0 txs & 0 uncles. Took 139.633µs
+I1025 02:20:14.377164 miner/worker.go:342] 🔨  Mined block (#69 / d6976b2e). Wait 5 blocks for confirmation
+I1025 02:20:14.377856 miner/worker.go:539] commit new work on block 70 with 0 txs & 0 uncles. Took 279.166µs
+I1025 02:20:14.378403 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #64
+I1025 02:20:14.400590 miner/worker.go:539] commit new work on block 70 with 0 txs & 0 uncles. Took 213.645µs
+I1025 02:20:15.390481 miner/worker.go:342] 🔨  Mined block (#70 / e71cc7b1). Wait 5 blocks for confirmation
+I1025 02:20:15.391111 miner/worker.go:539] commit new work on block 71 with 0 txs & 0 uncles. Took 167.3µs
+I1025 02:20:15.391546 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #65
+I1025 02:20:15.515762 miner/worker.go:539] commit new work on block 71 with 0 txs & 0 uncles. Took 200.76µs
+I1025 02:20:16.301366 miner/worker.go:342] 🔨  Mined block (#71 / 4ee654cf). Wait 5 blocks for confirmation
+I1025 02:20:16.301978 miner/worker.go:539] commit new work on block 72 with 0 txs & 0 uncles. Took 217.939µs
+I1025 02:20:16.302452 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #66
+I1025 02:20:16.303043 miner/worker.go:539] commit new work on block 72 with 0 txs & 0 uncles. Took 143.129µs
+I1025 02:20:16.346961 miner/worker.go:342] 🔨  Mined block (#72 / 9377352a). Wait 5 blocks for confirmation
+I1025 02:20:16.368932 miner/worker.go:539] commit new work on block 73 with 0 txs & 0 uncles. Took 148.124µs
+I1025 02:20:16.369429 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #67
+I1025 02:20:16.704865 miner/worker.go:539] commit new work on block 73 with 0 txs & 0 uncles. Took 199.062µs
+I1025 02:20:17.208826 miner/worker.go:342] 🔨  Mined block (#73 / 11e51d29). Wait 5 blocks for confirmation
+I1025 02:20:17.209420 miner/worker.go:539] commit new work on block 74 with 0 txs & 0 uncles. Took 179.586µs
+I1025 02:20:17.209849 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #68
+I1025 02:20:17.608955 miner/worker.go:539] commit new work on block 74 with 0 txs & 0 uncles. Took 265.883µs
+I1025 02:20:18.477422 miner/worker.go:342] 🔨  Mined block (#74 / 6aed1ae5). Wait 5 blocks for confirmation
+I1025 02:20:18.478077 miner/worker.go:539] commit new work on block 75 with 0 txs & 0 uncles. Took 227.229µs
+I1025 02:20:18.478531 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #69
+I1025 02:20:18.560385 miner/worker.go:539] commit new work on block 75 with 0 txs & 0 uncles. Took 218.739µs
+I1025 02:20:19.917543 miner/worker.go:342] 🔨  Mined block (#75 / f2ab6485). Wait 5 blocks for confirmation
+I1025 02:20:19.918161 miner/worker.go:539] commit new work on block 76 with 0 txs & 0 uncles. Took 186.178µs
+I1025 02:20:19.918609 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #70
+I1025 02:20:20.058327 miner/worker.go:539] commit new work on block 76 with 0 txs & 0 uncles. Took 17.489024ms
+I1025 02:20:20.308082 miner/worker.go:342] 🔨  Mined block (#76 / d4c0300c). Wait 5 blocks for confirmation
+I1025 02:20:20.308777 miner/worker.go:539] commit new work on block 77 with 0 txs & 0 uncles. Took 230.125µs
+I1025 02:20:20.309211 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #71
+I1025 02:20:20.309812 miner/worker.go:539] commit new work on block 77 with 0 txs & 0 uncles. Took 157.612µs
+I1025 02:20:21.235510 miner/worker.go:342] 🔨  Mined block (#77 / 00e19b51). Wait 5 blocks for confirmation
+I1025 02:20:21.236080 miner/worker.go:539] commit new work on block 78 with 0 txs & 0 uncles. Took 186.078µs
+I1025 02:20:21.236565 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #72
+I1025 02:20:21.491370 miner/worker.go:539] commit new work on block 78 with 0 txs & 0 uncles. Took 258.092µs
+I1025 02:20:23.172227 miner/worker.go:342] 🔨  Mined block (#78 / 480c92c0). Wait 5 blocks for confirmation
+I1025 02:20:23.172938 miner/worker.go:539] commit new work on block 79 with 0 txs & 0 uncles. Took 262.287µs
+I1025 02:20:23.173429 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #73
+I1025 02:20:23.533872 miner/worker.go:539] commit new work on block 79 with 0 txs & 0 uncles. Took 230.325µs
+I1025 02:20:25.376987 miner/worker.go:342] 🔨  Mined block (#79 / 89c07aee). Wait 5 blocks for confirmation
+I1025 02:20:25.377617 miner/worker.go:539] commit new work on block 80 with 0 txs & 0 uncles. Took 245.108µs
+I1025 02:20:25.378087 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #74
+I1025 02:20:25.378741 miner/worker.go:539] commit new work on block 80 with 0 txs & 0 uncles. Took 184.18µs
+I1025 02:20:26.530874 miner/worker.go:342] 🔨  Mined block (#80 / 45c2d31d). Wait 5 blocks for confirmation
+I1025 02:20:26.531490 miner/worker.go:539] commit new work on block 81 with 0 txs & 0 uncles. Took 197.264µs
+I1025 02:20:26.531895 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #75
+I1025 02:20:26.532500 miner/worker.go:539] commit new work on block 81 with 0 txs & 0 uncles. Took 126.549µs
+I1025 02:20:29.430058 miner/worker.go:342] 🔨  Mined block (#81 / eeef4cdc). Wait 5 blocks for confirmation
+I1025 02:20:29.430673 miner/worker.go:539] commit new work on block 82 with 0 txs & 0 uncles. Took 198.663µs
+I1025 02:20:29.431098 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #76
+I1025 02:20:29.431775 miner/worker.go:539] commit new work on block 82 with 0 txs & 0 uncles. Took 160.408µs
+I1025 02:20:30.161118 miner/worker.go:342] 🔨  Mined block (#82 / cad41307). Wait 5 blocks for confirmation
+I1025 02:20:30.161703 miner/worker.go:539] commit new work on block 83 with 0 txs & 0 uncles. Took 194.768µs
+I1025 02:20:30.162206 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #77
+I1025 02:20:30.162850 miner/worker.go:539] commit new work on block 83 with 0 txs & 0 uncles. Took 136.237µs
+I1025 02:20:31.061933 miner/worker.go:342] 🔨  Mined block (#83 / 266dcb84). Wait 5 blocks for confirmation
+I1025 02:20:31.062604 miner/worker.go:539] commit new work on block 84 with 0 txs & 0 uncles. Took 197.964µs
+I1025 02:20:31.063026 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #78
+I1025 02:20:31.063628 miner/worker.go:539] commit new work on block 84 with 0 txs & 0 uncles. Took 142.83µs
+I1025 02:20:31.594540 miner/worker.go:342] 🔨  Mined block (#84 / 8a3ece2d). Wait 5 blocks for confirmation
+I1025 02:20:31.595137 miner/worker.go:539] commit new work on block 85 with 0 txs & 0 uncles. Took 247.704µs
+I1025 02:20:31.595573 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #79
+I1025 02:20:31.882420 miner/worker.go:539] commit new work on block 85 with 0 txs & 0 uncles. Took 224.432µs
+I1025 02:20:32.678491 miner/worker.go:342] 🔨  Mined block (#85 / f719b5b3). Wait 5 blocks for confirmation
+I1025 02:20:32.679168 miner/worker.go:539] commit new work on block 86 with 0 txs & 0 uncles. Took 258.192µs
+I1025 02:20:32.679584 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #80
+I1025 02:20:32.680149 miner/worker.go:539] commit new work on block 86 with 0 txs & 0 uncles. Took 128.547µs
+I1025 02:20:34.606987 miner/worker.go:342] 🔨  Mined block (#86 / 334129e8). Wait 5 blocks for confirmation
+I1025 02:20:34.607626 miner/worker.go:539] commit new work on block 87 with 0 txs & 0 uncles. Took 241.612µs
+I1025 02:20:34.608072 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #81
+I1025 02:20:34.608737 miner/worker.go:539] commit new work on block 87 with 0 txs & 0 uncles. Took 145.027µs
+I1025 02:20:37.686371 miner/worker.go:342] 🔨  Mined block (#87 / 6b2a9c8f). Wait 5 blocks for confirmation
+I1025 02:20:37.687029 miner/worker.go:539] commit new work on block 88 with 0 txs & 0 uncles. Took 210.049µs
+I1025 02:20:37.687466 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #82
+I1025 02:20:37.688116 miner/worker.go:539] commit new work on block 88 with 0 txs & 0 uncles. Took 164.303µs
+I1025 02:20:39.516443 miner/worker.go:342] 🔨  Mined block (#88 / 6a772057). Wait 5 blocks for confirmation
+I1025 02:20:39.517102 miner/worker.go:539] commit new work on block 89 with 0 txs & 0 uncles. Took 235.319µs
+I1025 02:20:39.517526 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #83
+I1025 02:20:39.525622 miner/worker.go:539] commit new work on block 89 with 0 txs & 0 uncles. Took 200.96µs
+I1025 02:20:39.840272 miner/worker.go:342] 🔨  Mined block (#89 / 772c7d66). Wait 5 blocks for confirmation
+I1025 02:20:39.840981 miner/worker.go:539] commit new work on block 90 with 0 txs & 0 uncles. Took 139.633µs
+I1025 02:20:39.841427 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #84
+I1025 02:20:39.979330 miner/worker.go:539] commit new work on block 90 with 0 txs & 0 uncles. Took 17.168191ms
+I1025 02:20:42.163866 miner/worker.go:342] 🔨  Mined block (#90 / ce677baf). Wait 5 blocks for confirmation
+I1025 02:20:42.164468 miner/worker.go:539] commit new work on block 91 with 0 txs & 0 uncles. Took 240.113µs
+I1025 02:20:42.164905 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #85
+I1025 02:20:42.168130 miner/worker.go:539] commit new work on block 91 with 0 txs & 0 uncles. Took 187.376µs
+I1025 02:20:46.735714 miner/worker.go:342] 🔨  Mined block (#91 / ec2553b6). Wait 5 blocks for confirmation
+I1025 02:20:46.736407 miner/worker.go:539] commit new work on block 92 with 0 txs & 0 uncles. Took 212.845µs
+I1025 02:20:46.736816 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #86
+I1025 02:20:46.967041 miner/worker.go:539] commit new work on block 92 with 0 txs & 0 uncles. Took 288.055µs
+I1025 02:20:47.635422 miner/worker.go:342] 🔨  Mined block (#92 / fa7c7f1d). Wait 5 blocks for confirmation
+I1025 02:20:47.636006 miner/worker.go:539] commit new work on block 93 with 0 txs & 0 uncles. Took 233.121µs
+I1025 02:20:47.636476 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #87
+I1025 02:20:47.816518 miner/worker.go:539] commit new work on block 93 with 0 txs & 0 uncles. Took 198.263µs
+I1025 02:20:52.522894 miner/worker.go:342] 🔨  Mined block (#93 / b05920b8). Wait 5 blocks for confirmation
+I1025 02:20:52.523522 miner/worker.go:539] commit new work on block 94 with 0 txs & 0 uncles. Took 210.848µs
+I1025 02:20:52.523985 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #88
+I1025 02:20:52.544695 miner/worker.go:539] commit new work on block 94 with 0 txs & 0 uncles. Took 234.32µs
+I1025 02:20:53.356912 miner/worker.go:342] 🔨  Mined block (#94 / ac1f906f). Wait 5 blocks for confirmation
+I1025 02:20:53.357569 miner/worker.go:539] commit new work on block 95 with 0 txs & 0 uncles. Took 248.703µs
+I1025 02:20:53.358004 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #89
+I1025 02:20:53.358614 miner/worker.go:539] commit new work on block 95 with 0 txs & 0 uncles. Took 127.448µs
+I1025 02:20:53.746836 miner/worker.go:342] 🔨  Mined block (#95 / 7c2cdfab). Wait 5 blocks for confirmation
+I1025 02:20:53.747600 miner/worker.go:539] commit new work on block 96 with 0 txs & 0 uncles. Took 213.145µs
+I1025 02:20:53.748079 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #90
+I1025 02:20:53.754225 miner/worker.go:342] 🔨  Mined stale block (#95 / a2a7e76c). 
+I1025 02:20:53.754877 miner/worker.go:539] commit new work on block 96 with 0 txs & 0 uncles. Took 187.975µs
+I1025 02:20:54.142768 miner/worker.go:342] 🔨  Mined block (#96 / 1189b8e9). Wait 5 blocks for confirmation
+I1025 02:20:54.143407 miner/worker.go:539] commit new work on block 97 with 0 txs & 0 uncles. Took 223.334µs
+I1025 02:20:54.143833 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #91
+I1025 02:20:54.319545 miner/worker.go:342] 🔨  Mined stale block (#96 / 2ce5699e). 
+I1025 02:20:54.320227 miner/worker.go:539] commit new work on block 97 with 0 txs & 0 uncles. Took 170.396µs
+I1025 02:20:54.456271 miner/worker.go:539] commit new work on block 97 with 0 txs & 0 uncles. Took 214.443µs
+I1025 02:20:54.505749 miner/worker.go:539] commit new work on block 97 with 0 txs & 0 uncles. Took 223.533µs
+I1025 02:20:54.597611 miner/worker.go:342] 🔨  Mined stale block (#96 / cfdb060b). 
+I1025 02:20:54.599407 miner/worker.go:539] commit new work on block 97 with 0 txs & 0 uncles. Took 403.318µs
+I1025 02:20:55.254112 miner/worker.go:342] 🔨  Mined block (#97 / d4d95233). Wait 5 blocks for confirmation
+I1025 02:20:55.254752 miner/worker.go:539] commit new work on block 98 with 0 txs & 0 uncles. Took 178.287µs
+I1025 02:20:55.255224 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #92
+I1025 02:20:55.255829 miner/worker.go:539] commit new work on block 98 with 0 txs & 0 uncles. Took 132.042µs
+I1025 02:20:56.678639 miner/worker.go:342] 🔨  Mined block (#98 / d2329938). Wait 5 blocks for confirmation
+I1025 02:20:56.679270 miner/worker.go:539] commit new work on block 99 with 0 txs & 0 uncles. Took 206.454µs
+I1025 02:20:56.679717 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #93
+I1025 02:20:56.680329 miner/worker.go:539] commit new work on block 99 with 0 txs & 0 uncles. Took 148.023µs
