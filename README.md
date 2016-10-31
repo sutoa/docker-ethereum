@@ -6,6 +6,7 @@ Playing around with deploying and calling a smart contract to my private ethereu
 1. MacBook Pro running with OS X El Capitan
 2. iterm + zsh 
 3. Docker for Mac
+4. node.js + web3 JS library
 
 ### Steps:
 - build a docker image from the docker folder 
@@ -25,17 +26,17 @@ Playing around with deploying and calling a smart contract to my private ethereu
     root@bf1fa159da06:/# ./initPrivateNode.sh
     ```
     
-  - start the private node
+  - start the private node... DAG generation might take up to 10 minutes. After it's done, run 'miner.start()'
     ```
-    ./startPrivateGeth-console.sh
+    root@bf1fa159da06:/# ./startPrivateGeth-console.sh
     ```
 
-- deploy contract
+- deploy contract ... from the local machine, go to the js folder. record the address for the contract after the js file is completed
   ```
   node deployGreeter.js
   ```
 
-- run the contract
+- run the contract... update the js file below with the address and then invoke it
   ```
   node callGreeter.js
   ```
